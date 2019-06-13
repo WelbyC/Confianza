@@ -1,0 +1,60 @@
+.content{
+    padding-bottom: 40px;
+}
+
+.container{
+    position: relative;
+    min-height: 100vh;
+}
+
+.about{
+    margin-top: 3px;
+    width:80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    background-color:rgb(223, 219, 219);
+    border-top: solid 1px #c5c4c4;
+    border-width: thin;
+}
+
+.footer-links{
+    position: absolute;
+    bottom: 10px;
+    right: 25px;
+}
+
+.about-link{
+color: #5D6065;
+border: none;
+font-size: 9pt;
+background-color: transparent;
+}
+
+.contact-us-link{
+margin-left: 20px;
+color: #5D6065;
+border: none;
+font-size: 9pt;
+background-color: transparent;
+}
+
+.contact-us-link:hover{
+    text-decoration: underline;
+}
+
+.about-link:hover{
+text-decoration: underline;
+}
+
+.add-journalist-link:hover{
+text-decoration: underline;
+}

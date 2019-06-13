@@ -1,0 +1,14 @@
+.stars {
+    display: block;
+    height: 35px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.one-star {
+    display: block;
+    height: 35px;
+    width: auto;
+}

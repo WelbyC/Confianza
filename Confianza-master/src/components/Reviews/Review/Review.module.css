@@ -1,0 +1,69 @@
+.review-card {
+    width: 650px;
+    margin: auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 16px;
+    background-color: rgb(255, 255, 255, 0.3);
+}
+
+.headline {
+    font-weight: bold;
+    font-size: 10pt;
+    position: relative;
+    bottom: 4px;
+    padding-left: 6px;
+}
+
+
+.comment {
+    font-size: 10pt;
+}
+
+.comment-likes-number{
+    font-weight : bold;
+    font-size: 10pt;
+}
+
+.comment-dislikes-number{
+    padding-left: 10px;
+    font-weight : bold;
+    font-size: 10pt;
+}
+
+.comment-likes-button{
+    width: 15px;
+    height: auto;
+    padding-left: 4px;
+
+}
+
+.comment-likes-button:hover{
+    opacity: .5;
+}
+
+.comment-dislikes-button{
+    width: 15px;
+    height: auto;
+    padding-left: 4px;
+    margin-bottom: -4px;
+}
+
+.comment-dislikes-button:hover{
+    opacity: .5;
+}
+
+.stars{
+    height: 17px;
+    width: auto;
+}
+
+.flag{
+    padding-left: 530px;
+    height: 15px;
+    width: auto;
+}
+
+.flag:hover{
+    opacity: .5;
+}

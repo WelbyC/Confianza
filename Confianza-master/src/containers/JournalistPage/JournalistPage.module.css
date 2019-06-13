@@ -1,0 +1,92 @@
+.content{
+    padding-bottom: 40px;
+}
+
+.container{
+    position: relative;
+    min-height: 100vh;
+}
+
+.write-new-review-button{
+    display: block;
+
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    margin-bottom: 10px;
+
+    color:#2f3640;
+    font-family: "proxima nova";
+    font-weight: bold;
+    font-size: 12pt;
+    text-align: center;
+
+    border: .005px;
+    padding: 10px 15px;
+
+    background-color:  rgb(236, 210, 160);
+    -webkit-transition: color .3s;
+    -webkit-transition: background-color .3s;
+
+}
+
+.write-new-review-button:hover{
+    background-color: #2f3640;
+    color: #F9D288;
+    transform: translateY(-0.4em);
+    transition: transform .2s;
+    box-shadow: 0 13px 6px -6px rgba(0, 0, 0, 0.2);
+}
+
+.star{
+    font-size: 45px;
+}
+
+.results-not-found{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    background-color:rgb(223, 219, 219);
+    border-top: solid 1px #c5c4c4;
+    border-width: thin;
+}
+
+.footer-links{
+    position: absolute;
+    bottom: 10px;
+    right: 25px;
+}
+
+.about-link{
+color: #5D6065;
+border: none;
+font-size: 9pt;
+background-color: transparent;
+}
+
+.contact-us-link{
+margin-left: 20px;
+color: #5D6065;
+border: none;
+font-size: 9pt;
+background-color: transparent;
+}
+
+.contact-us-link:hover{
+    text-decoration: underline;
+}
+
+.about-link:hover{
+text-decoration: underline;
+}
+
+.add-journalist-link:hover{
+text-decoration: underline;
+}

@@ -1,0 +1,76 @@
+.login-text{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: #2f3640;
+}
+
+.username-input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.password-input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.username-text{
+
+}
+
+.password-text{
+
+}
+
+/* Add a hover effect for buttons */
+
+.login-button{
+    background-color: #F9D288;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    color:#2f3640;
+}
+
+.login-button:hover{
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.cancelbtn:hover{
+    opacity: 0.8;
+}
+
+span.psw {
+        float: right;
+        padding-top: 16px;
+}
+
+.checkbox {
+    margin-bottom: 18px;
+}

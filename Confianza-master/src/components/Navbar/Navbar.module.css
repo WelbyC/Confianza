@@ -1,0 +1,70 @@
+.navbar{
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    background-color: rgb(255, 255, 255, 0.6);
+}
+
+.buttons{
+    position:absolute;
+    right: 5%;
+    top: 10px;
+}
+
+.confianza-text{
+    font-weight: bold;
+    position: relative;
+    font-size: 14pt;
+    bottom: 18px;
+    left: -10px;
+    font-family:courier, courier new, serif;
+}
+
+.login{
+    color: #2f3640;
+    border: none;
+    font-weight: bold;
+    font-size: 12pt;
+    text-align: center;
+    background-color: transparent;
+}
+
+.home{
+    color: #2f3640;
+    border: none;
+    font-weight: bold;
+    font-size: 12pt;
+    text-align: center;
+    background-color: transparent;
+    margin-right: 10px;
+}
+
+.separation{
+    margin-right: 7px;
+}
+
+.home:hover{
+    border-bottom: 3px solid #2f3640;
+}
+
+.login:hover{
+    border-bottom: 3px solid #2f3640;
+}
+
+.signup{
+    margin-left: 8px;
+    color: #2f3640;
+    border: solid 2px #2f3640;
+    font-weight: bold;
+    font-size: 12pt;
+    text-align: center;
+    background-color: transparent;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+}
+.signup:hover{
+    background-color: #2f3640;
+    color: white;
+}
